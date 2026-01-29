@@ -1,0 +1,34 @@
+{
+    "name": "mikopbx/moduleautocrm",
+    "description": "AutoCRM Integration Module - sync calls history with AutoCRM",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "mikopbx/core": ">=2023.2.150",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ModuleAutoCRM\\": "/"
+        }
+    },
+    "type": "application",
+    "keywords": [
+        "pbx",
+        "asterisk",
+        "mikopbx",
+        "autocrm",
+        "crm",
+        "integration"
+    ],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Alexey Portnov",
+            "email": "apor@miko.ru",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    }
+}
